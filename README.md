@@ -1,4 +1,6 @@
+# Descrição
 
+Responsável pelo desenvolvimento de uma aplicação Back-End utilizando Node.js, com a utilização de banco de dados relacional PostgreSQL e não relacional MongoDB. Implementação do banco de dados PostgreSQL, definindo tabelas elaboradas para produtos, categorias e usuários, e do banco de dados MongoDB para armazenar dados não estruturados, proporcionando facilidade na gestão de informações relacionadas a pedidos. Utilização do Sequelize como ORM, criando migrações, modelos e controladores no PostgreSQL. Utilização do Docker para criar containers virtuais. Implementação de ESLint e Prettier para garantir código limpo e legível. Implementação de JWT (JSON Web Tokens) para criar tokens seguros, garantindo a autenticação e autorização para os usuários. Uso de bcrypt para criptografar senhas, reforçando a segurança dos dados dos usuários.
 
 # Sistema de API de Hamburgueria (Back-End)
 
