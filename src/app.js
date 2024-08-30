@@ -4,10 +4,8 @@ import "./database";
 import { resolve } from "path";
 import cors from "cors";
 
-const list = ["https://interface-dev-club.vercel.app", "http://localhost:3000"];
-
 const corsOption = {
-  origin: "http://localhost:3000",
+  origin: "https://interface-dev-club.vercel.app",
   credentials: true,
 };
 
