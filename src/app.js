@@ -7,13 +7,7 @@ import cors from "cors";
 const list = ["https://interface-dev-club.vercel.app", "http://localhost:3000"];
 
 const corsOption = {
-  origin: function (origin, callback) {
-    if (list.indexOf(origin) !== -1 || !origin) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not allowed by CORS"));
-    }
-  },
+  origin: "http://localhost:3000",
   credentials: true,
 };
 
